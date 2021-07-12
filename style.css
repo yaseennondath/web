@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body{
+    background-color: red;
+}
+
+body, html {
+    height: 100%;
+	width: 100%;
+    background-repeat: no-repeat;
+    /*background-image: linear-gradient(rgb(12, 97, 33),rgb(104, 145, 162));*/
+    background:rgb(226, 219, 219);
+	margin-block-end: 0%;
+   
+ 
+}
+
+.bold{
+	font-weight: bold;
+}
+
+#header{
+	position: fixed; 
+	width: 100%; 
+	z-index: 4; 
+	background-color: green;
+}
+
+#nav-button{
+	background-color: rgb(117, 113, 113);
+	padding-right: 100px;
+}
+
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: -2.5rem 1rem;
+}
+
+.navbar-toggler {
+    padding: 0.25rem -0.25rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+#section1{
+	padding-top: 8em;
+	margin-left: 0%;
+}
+
+.index{
+	z-index: 3;
+}
+
+.profile-picture{
+	height: 400px; 
+	width: 450px;
+	border: 3px solid #555;
+	
+}
+
+#about-me{
+	font-weight: bold; 
+	font-size: 30px; 
+	padding-left: 100px;
+}
+
+.bg-black{
+	background-color: #000;
+}
+
+#card-bg{
+	background: none;
+	border-color: blueviolet;"
+}
+
+.card-head{
+	color: #F74500;
+}
+
+.card-para{
+	color: #fff;
+}
+
+.white{
+	color: #fff;
+	font-weight: bold;
+}
+
+.borderv{
+	border-color: violet;"
+}
+
+
+#particles-js{
+  width: 100%; 
+  height: 100%; 
+  background-size: cover; 
+  background-position: 50% 50%; 
+  position: fixed; top: 0px;
+
+}
+
+.head-text{
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#a { 
+ onmousedown:stop; 
+ animation-name: rotate ; 
+ animation-duration: 5s; 
+ animation-play-state: running; 
+ animation-timing-function: linear; 
+ animation-iteration-count: infinite; 
+ opacity: 1.0;
+ filter: alpha(opacity=50);
+
+}
+ 
+img:hover {
+ opacity: 1.0;
+ filter: alpha(opacity=100);
+
+} 
+
+@keyframes rotate{ 
+ 10% {transform:rotateY(36deg)}
+ 20% {transform:rotateY(72deg)}
+ 30% {transform:rotateY(108deg)} 
+ 40% {transform:rotateY(144deg)} 
+ 50% {transform:rotateY(180deg)} 
+ 60% {transform:rotateY(216deg)} 
+ 70% {transform:rotateY(252deg)} 
+ 80% {transform:rotateY(288deg)} 
+ 90% {transform:rotateY(324deg)} 
+ 100% {transform:rotateY(360deg)} 
+
+}
+
+#contact{
+  background: #16191c;  /* fallback for old browsers */
+}
+
+.bv{
+	color: blueviolet;
+	font-weight: bold;
+}
+
+/*--contact--*/
+.contact{
+	padding: 3.3em 0 4em 0;
+	background: #16191c;  /* fallback for old browsers */
+	
+}
+.contact h3{
+	text-align: center;
+	font-size: 2.7em;
+	text-transform: uppercase;
+	color: blueviolet;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+.contact-form {
+	text-align: center;
+	width: 65%;
+	margin: 0 auto;
+}
+p.comment-form-author {
+	margin-bottom:2em;
+}
+.contact-form label{
+	display: block;
+	font-size: 1.6em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 100;
+	text-align: left;
+}
+.contact-form input[type="text"] {
+	padding:15px;
+	width:95%;
+	color:#999;
+	font-size:1em;
+	border:none;
+	-webkit-appearance:none;
+	background:#fff;
+	outline: none;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+.contact-form textarea {
+	padding:10px;
+	display: block;
+	width:95%;
+	background:#fff;
+	border:none;
+	outline: none;
+	color:#999;
+	font-size:1em;
+	-webkit-appearance: none;
+	resize: none;
+	height: 200px;
+	font-family: 'Open Sans', sans-serif;
+}
+.contact-form input[type="submit"]{
+	padding: 0.6em 2em;
+	text-decoration: none;
+	border: 2px solid #1E494C;
+	margin-top: 1em;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	color: #1E494C;
+	font-size: 1.5em;
+	text-transform:uppercase;
+	text-align: center;
+	-webkit-appearance:none;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+	-o-border-radius: 0.4em;
+	background: #ffffff;
+	font-weight: 700;
+	width:37%;
+	outline: none;
+}
+.contact-form input[type="submit"]:hover{
+	background: none;
+	border: 2px solid #fff;
+	color:#fff;
+}
+
+.email-span{
+	display: none; 
+	color:red;
+	font-weight: bold;
+	
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+  
+
+.fa:hover {
+	opacity: 0.7;
+  
+}
+  
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+ 
+} 
+  
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-whatsapp {
+	background: #4fce5d;
+	color: white;
+}
+
+#footer{
+	background: #16191c;  
+	
+}
+
+.padding {
+    padding: 1.25rem!important;
+}
+
+.background-primary, .primary-color-primary .background-primary {
+    background-color: #C81010 !important;
+}
+
+.text-line-height-1 {
+    line-height: 1;
+}
+.margin-top-bottom-40 {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    display: block;
+}
+.text-white, .text-white *, .primary-color-white .text-primary, .primary-color-white .text-primary * {
+    color: #fff !important;
+}
+.text-size-60, .text-l-size-60 {
+    font-size: 60px !important;
+    line-height: 1.4;
+}
+
+.section {
+    padding: 6rem 1.25rem;
+}
+
+#about-life{
+	font-weight: bold; 
+	font-size: 15px; 
+	padding-left: 10px;
+}
+
+
+
